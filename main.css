@@ -1,0 +1,147 @@
+/* Reset */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, iframe, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 14px/1.5 Arial, Helvetica, sans-serif; }
+
+/* General */
+body {
+    background: #f3f3f3;
+    color: #444;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+}
+
+.intro header {
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.intro .actions {
+    margin-top: 40px;
+}
+
+.intro .image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section .content {
+    text-align: center;
+}
+
+section .image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+
+section .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+section .button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul.items {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.items li {
+    margin-bottom: 20px;
+}
+
+footer ul.items h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer ul.items a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer ul.items a:hover {
+    color: #333;
+}
+
+footer ul.icons {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 980px) {
+    #wrapper {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro h1 {
+        font-size: 2.5em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    section .button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
